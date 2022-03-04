@@ -1,0 +1,24 @@
+<!-- <div>
+  <input (keyup)="(0)" #phoneNumber placeholder="Enter your Phone Number" />
+  <h2>{{ phoneNumber.value }}</h2>
+  <img src="{{ itemImageURL }}" alt="" />
+  <img [src]="itemImageURL" alt="" />
+</div>
+
+<div [class.special]="isSpecial" (mouseover)="onMouseOut()">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nam vel dicta
+  quam facilis, voluptatibus corporis eaque fugit minus hic.
+</div>
+
+<div [style.background-color]="paraColor">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias
+  ducimus inventore non itaque nesciunt magnam repellendus, ratione iure
+  doloremque suscipit magni cumque laborum fugiat, dolorem, perspiciatis veniam
+  minus expedita.
+</div> -->
+
+<div>
+  <input type="text" [(ngModel)]="userName" />
+  <h2>{{ userName }}</h2>
+  <button [disabled]="isEmpty()" (click)="onClick()">Click Me!</button>
+</div>
